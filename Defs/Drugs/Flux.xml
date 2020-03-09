@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>Flux</defName>
+    <label>flux</label>
+    <description>A outstandingly powerful drug used mainly on glitterworlds, said to be the perfect form of Luciferium.</description>
+    <graphicData>
+      <texPath>Item/Flux</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>0.005</Mass>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>FluxHigh</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+			<researchPrerequisite>FluxProduction</researchPrerequisite>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Luciferium>10</Luciferium>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.08</min>
+          <max>0.14</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <HediffDef>
+    <defName>FluxHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>flux</label>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1</severityPerDay>
+      </li>
+	  <li Class="HediffCompProperties_HealPermanentWounds" />
+    </comps>
+	<stages>
+        <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.50</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.5</offset>
+          </li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.30</offset>
+					</li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>1</offset>
+          </li>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>0.30</offset>
+          </li>
+           <li>
+            <capacity>Metabolism</capacity>
+            <offset>0.50</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>0.20</offset>
+          </li>
+		</capMods>
+		</li>
+      </stages>
+  </HediffDef>
+  
+   <ThoughtDef>
+    <defName>FluxHigh</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>FluxHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Fluxed</label>
+        <description>I've never felt anything like this</description>
+        <baseMoodEffect>35</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>
