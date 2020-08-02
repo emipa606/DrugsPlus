@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Column 1 -->
+
+  <HypomorphoneProduction.label>hypomorphone production</HypomorphoneProduction.label>
+  <HypomorphoneProduction.description>Produce hypomorphone, a powerful pain killing drug.</HypomorphoneProduction.description>
+
+  <TristapramProduction.label>tristapram production</TristapramProduction.label>
+  <TristapramProduction.description>Produce tristapram, a powerful mood boosting drug.</TristapramProduction.description>
+
+  <CyludapamProduction.label>cyludapam production</CyludapamProduction.label>
+  <CyludapamProduction.description>Produce cyludapam, a powerful debilitating drug.</CyludapamProduction.description>
+
+  <FluxProduction.label>flux production</FluxProduction.label>
+  <FluxProduction.description>Produce flux, a powerful glitterworld drug.</FluxProduction.description>
+
+
+</LanguageData>

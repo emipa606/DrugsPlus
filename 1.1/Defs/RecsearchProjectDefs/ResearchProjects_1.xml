@@ -1,10 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <!--=============================== Tier 1: pre-electricity ===================================-->
-
   <!--===== Column 1 ====-->
-  
   <ResearchProjectDef>
     <defName>HypomorphoneProduction</defName>
     <label>hypomorphone production</label>
@@ -17,7 +14,6 @@
     <researchViewX>3</researchViewX>
     <researchViewY>3.5</researchViewY>
   </ResearchProjectDef>
-  
   <ResearchProjectDef>
     <defName>TristapramProduction</defName>
     <label>tristapram production</label>
@@ -33,30 +29,4 @@
   
   Cyludapam
   
-  <ResearchProjectDef>
-    <defName>CyludapamProduction</defName>
-    <label>cyludapam production</label>
-    <description>Produce cyludapam, a powerful debilitating drug.</description>
-    <baseCost>500</baseCost>
-    <techLevel>Industrial</techLevel>
-    <prerequisites>
-      <li>DrugProduction</li>
-    </prerequisites>
-    <researchViewX>3</researchViewX>
-    <researchViewY>2.5</researchViewY>
-  </ResearchProjectDef>
-  
-  <ResearchProjectDef>
-    <defName>FluxProduction</defName>
-    <label>flux production</label>
-    <description>Produce flux, a powerful glitterworld drug.</description>
-    <baseCost>500</baseCost>
-    <techLevel>Spacer</techLevel>
-    <prerequisites>
-      <li>DrugProduction</li>
-    </prerequisites>
-    <researchViewX>5</researchViewX>
-    <researchViewY>2.5</researchViewY>
-  </ResearchProjectDef>
-
-</Defs>
+  <ResearchProjectDef><defName>CyludapamProduction</defName><label>cyludapam production</label><description>Produce cyludapam, a powerful debilitating drug.</description><baseCost>500</baseCost><techLevel>Industrial</techLevel><prerequisites><li>DrugProduction</li></prerequisites><researchViewX>3</researchViewX><researchViewY>2.5</researchViewY></ResearchProjectDef><ResearchProjectDef><defName>FluxProduction</defName><label>flux production</label><description>Produce flux, a powerful glitterworld drug.</description><baseCost>500</baseCost><techLevel>Spacer</techLevel><prerequisites><li>DrugProduction</li></prerequisites><researchViewX>5</researchViewX><researchViewY>2.5</researchViewY></ResearchProjectDef></Defs>

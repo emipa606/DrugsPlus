@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <RecipeDef Abstract="True" Name="SurgeryFlesh">
     <effectWorking>Surgery</effectWorking>
     <soundWorking>Recipe_Surgery</soundWorking>
@@ -8,8 +7,7 @@
     <workSkill>Medicine</workSkill>
     <workSkillLearnFactor>16</workSkillLearnFactor>
   </RecipeDef>
-
- <RecipeDef>
+  <RecipeDef>
     <defName>AdministerHypomorphone</defName>
     <label>administer hypomorphone</label>
     <description>Administer hypomorphone.</description>
@@ -36,7 +34,6 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  
   <RecipeDef>
     <defName>AdministerTristapram</defName>
     <label>administer tristapram</label>
@@ -64,8 +61,7 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-
-	<RecipeDef>
+  <RecipeDef>
     <defName>AdministerCyludapam</defName>
     <label>administer cyludapam</label>
     <description>Administer cyludapam.</description>
@@ -92,7 +88,6 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-  
   <RecipeDef>
     <defName>AdministerFlux</defName>
     <label>administer flux</label>
@@ -120,5 +115,4 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-
 </Defs>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AdministerHypomorphone.label>administer hypomorphone</AdministerHypomorphone.label>
+  <AdministerHypomorphone.description>Administer hypomorphone.</AdministerHypomorphone.description>
+  <AdministerHypomorphone.jobString>Administering hypomorphone.</AdministerHypomorphone.jobString>
+
+  <AdministerTristapram.label>administer tristapram</AdministerTristapram.label>
+  <AdministerTristapram.description>Administer tristapram.</AdministerTristapram.description>
+  <AdministerTristapram.jobString>Administering tristapram.</AdministerTristapram.jobString>
+
+  <AdministerCyludapam.label>administer cyludapam</AdministerCyludapam.label>
+  <AdministerCyludapam.description>Administer cyludapam.</AdministerCyludapam.description>
+  <AdministerCyludapam.jobString>Administering cyludapam.</AdministerCyludapam.jobString>
+
+  <AdministerFlux.label>administer flux</AdministerFlux.label>
+  <AdministerFlux.description>Administer flux.</AdministerFlux.description>
+  <AdministerFlux.jobString>Administering flux.</AdministerFlux.jobString>
+
+
+</LanguageData>

@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>Hypomorphone</defName>
     <label>hypomorphone</label>
@@ -28,7 +27,7 @@
       </outcomeDoers>
     </ingestible>
     <recipeMaker>
-			<researchPrerequisite>HypomorphoneProduction</researchPrerequisite>
+      <researchPrerequisite>HypomorphoneProduction</researchPrerequisite>
       <recipeUsers>
         <li>DrugLab</li>
       </recipeUsers>
@@ -46,7 +45,6 @@
       </li>
     </comps>
   </ThingDef>
-  
   <HediffDef>
     <defName>HypomorphoneHigh</defName>
     <hediffClass>HediffWithComps</hediffClass>
@@ -60,11 +58,10 @@
         <severityPerDay>-0.35</severityPerDay>
       </li>
     </comps>
-      <stages>
-        <li>
-           <painFactor>-0.25</painFactor>
-		</li>
-      </stages>
+    <stages>
+      <li>
+        <painFactor>-0.25</painFactor>
+      </li>
+    </stages>
   </HediffDef>
-
 </Defs>
