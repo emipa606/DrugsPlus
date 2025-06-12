@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cyludapam production -->
+  <CyludapamProduction.label>cyludapam production</CyludapamProduction.label>
+  <!-- EN: Produce cyludapam, a powerful debilitating drug. -->
+  <CyludapamProduction.description>Produce cyludapam, a powerful debilitating drug.</CyludapamProduction.description>
+  <!-- EN: flux production -->
+  <FluxProduction.label>flux production</FluxProduction.label>
+  <!-- EN: Produce flux, a powerful glitterworld drug. -->
+  <FluxProduction.description>Produce flux, a powerful glitterworld drug.</FluxProduction.description>
+  <!-- EN: hypomorphone production -->
+  <HypomorphoneProduction.label>hypomorphone production</HypomorphoneProduction.label>
+  <!-- EN: Produce hypomorphone, a powerful pain killing drug. -->
+  <HypomorphoneProduction.description>Produce hypomorphone, a powerful pain killing drug.</HypomorphoneProduction.description>
+  <!-- EN: tristapram production -->
+  <TristapramProduction.label>tristapram production</TristapramProduction.label>
+  <!-- EN: Produce tristapram, a powerful mood boosting drug. -->
+  <TristapramProduction.description>Produce tristapram, a powerful mood boosting drug.</TristapramProduction.description>
+</LanguageData>

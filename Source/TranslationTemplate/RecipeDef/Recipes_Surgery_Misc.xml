@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: administer cyludapam -->
+  <AdministerCyludapam.label>administer cyludapam</AdministerCyludapam.label>
+  <!-- EN: Administer cyludapam. -->
+  <AdministerCyludapam.description>Administer cyludapam.</AdministerCyludapam.description>
+  <!-- EN: Administering cyludapam. -->
+  <AdministerCyludapam.jobString>Administering cyludapam.</AdministerCyludapam.jobString>
+  <!-- EN: administer flux -->
+  <AdministerFlux.label>administer flux</AdministerFlux.label>
+  <!-- EN: Administer flux. -->
+  <AdministerFlux.description>Administer flux.</AdministerFlux.description>
+  <!-- EN: Administering flux. -->
+  <AdministerFlux.jobString>Administering flux.</AdministerFlux.jobString>
+  <!-- EN: administer hypomorphone -->
+  <AdministerHypomorphone.label>administer hypomorphone</AdministerHypomorphone.label>
+  <!-- EN: Administer hypomorphone. -->
+  <AdministerHypomorphone.description>Administer hypomorphone.</AdministerHypomorphone.description>
+  <!-- EN: Administering hypomorphone. -->
+  <AdministerHypomorphone.jobString>Administering hypomorphone.</AdministerHypomorphone.jobString>
+  <!-- EN: administer tristapram -->
+  <AdministerTristapram.label>administer tristapram</AdministerTristapram.label>
+  <!-- EN: Administer tristapram. -->
+  <AdministerTristapram.description>Administer tristapram.</AdministerTristapram.description>
+  <!-- EN: Administering tristapram. -->
+  <AdministerTristapram.jobString>Administering tristapram.</AdministerTristapram.jobString>
+</LanguageData>

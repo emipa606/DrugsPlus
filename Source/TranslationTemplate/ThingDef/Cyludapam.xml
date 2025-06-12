@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: cyludapam -->
+  <Cyludapam.label>cyludapam</Cyludapam.label>
+  <!-- EN: A drug for greatly decreasing a person motor skills. -->
+  <Cyludapam.description>A drug for greatly decreasing a person motor skills.</Cyludapam.description>
+  <!-- EN: Take {0} -->
+  <Cyludapam.ingestible.ingestCommandString>Take {0}</Cyludapam.ingestible.ingestCommandString>
+  <!-- EN: Taking {0}. -->
+  <Cyludapam.ingestible.ingestReportString>Taking {0}.</Cyludapam.ingestible.ingestReportString>
+</LanguageData>
