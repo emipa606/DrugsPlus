@@ -46,4 +46,4 @@ All four drugs have to be researched and then can be crafted at a drug lab.
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/DrugsPlus?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2018224594) | tags: glitterworld drugs, mood enhancement
+[![Image](https://img.shields.io/github/v/release/emipa606/DrugsPlus?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2018224594) | mood enhancement, glitterworld drugs
